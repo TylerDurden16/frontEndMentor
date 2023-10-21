@@ -1,0 +1,114 @@
+body {
+	background-color: hsl(213, 12%, 8%); 
+    /*width: 375px*/
+    width: 1440px;
+    display: flex;
+    margin: 10% auto;
+    font-weight: 400;
+    font-family: Overpass;
+}
+h1, h2 {
+    color: hsl(0, 0%, 100%);
+    margin: 15px 1px;
+}
+body, .main {
+    
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: hsl(213, 19%, 18%);
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 2.1rem 3rem 2rem 2rem;
+}
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    /*letter-spacing: .01em;*/
+    line-height: 1.5rem;
+}
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 30px;
+    letter-spacing: .19em;
+    cursor: pointer;
+    /*padding: 10px 150%;
+    padding: 10px 35%;
+    display: flex;
+    justify-content: center;*/
+    width: 92.5%;
+    padding: 10px;
+    margin-top: 30px;
+}
+.submit-btn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+.rating-submit {
+    display: flex;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    gap: 1.4em;
+}
+.star-img {
+    border-radius: 50%;
+    padding: 12px;
+}
+input[type="radio"] {
+    display: none;
+}
+label, .star-img, .rating-p  {
+    background-color: hsl(213deg, 14.29%, 22.18%);
+}
+label {
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 1.5em 1em;
+    /*background-color: hsl(213deg, 14.29%, 22.18%);*/
+    color: hsl(217, 12%, 63%);
+    /*padding: 10%;*/
+    padding: 15px 17px 12px;
+}
+label, .submit-btn, h1, h2 {
+    font-weight: 700;
+}
+label:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+input:checked + label {
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+.rating-p {
+    color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    padding: .3rem 1.1rem .1rem 1.1rem;
+    letter-spacing: .05rem;
+    margin-top: 35px;
+}
+.top-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.bottom-div {
+    text-align: center;
+    margin-top: 25px;
+}
+.thanks-p {
+    text-align: center;
+    letter-spacing: .01em;
+    margin-top: 10px;
+    letter-spacing: 0;
+}
+.thanks-h1 {
+    margin: 25px 0 0 0;
+}
